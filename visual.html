@@ -13,16 +13,16 @@
 	<link href="src/css/normalize.css" rel="stylesheet" type="text/css">
 	<!-- Page -->
 	<link rel="icon" type="image/x-icon" href="/src/img/favicon.ico">
-	<title>home</title>
+	<title>visual</title>
 </head>
 <body>
 <!-- Content -->
-<main id="bg">
-	<nav class="no-select">
-		<a href="index.html" class="currentLink">home</a>
+<main id="bg" class="main-short">
+	<nav>
+		<a href="index.html">home</a>
 		<a href="dev.html">dev</a>
 		<a href="audio.html">audio</a>
-		<a href="visual.html">visual</a>
+		<a href="visual.html" class="currentLink">visual</a>
 		<a href="contact.html">contact</a>
 	</nav>
 	<div class="page-container">
@@ -32,26 +32,17 @@
 		</svg>
 		<!-- Welcome-Card -->
 		<div class="card outlined rounded shadowed" id="welcome-card">
-			<h1 class="no-select"><span class="hover h-brightOrange">fáilte</span>.<span class="hover h-brightOrange">txt</span></h1>
-			<p class="card-text emoji-indent">👋 Hello! I'm Seán Óg, an aspiring software developer from Ireland.</p>
-			<p class="card-text emoji-indent">🧔 I also dabble in UI/UX, graphic design, music production and DJing.
-			<p class="card-text emoji-indent">🎓 Recently graduated from <a href="https://www.iadt.ie" target="_blank">IADT</a> with a 1:1 in Creative Computing (BSc).</p>
-			<p class="card-text emoji-indent">🌟 Was also jointly awarded Student of the Year, alongside a good mate of mine.</p>
-			<p class="card-text emoji-indent">🔎 Take a look around, you can find lots of my work from over the years here!</p>
-		</div>
-		<!-- Info-Card -->
-		<div class="card outlined rounded shadowed" id="info-card">
-			<h1 class="no-select"><span class="hover h-brightOrange">status</span>.<span class="hover h-brightOrange">txt</span></h1>
-			<p class="card-text emoji-indent">👀 I'm currently looking for work. Full-time, part-time, whichever!</p>
-			<p class="card-text emoji-indent">👍 If you're interested in hiring me, please <a href="contact.html">get in touch</a>!</p>
+			<h1 class="no-select"><span class="hover h-brightOrange">visual</span>.<span class="hover h-brightOrange">txt</span></h1>
+			<p class="card-text">Under construction! Please come back later ^_^</p>
 		</div>
 	</div>
 </main>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.1/p5.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.birds.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.topology.min.js"></script>
 <script>
-	VANTA.BIRDS({
+	VANTA.TOPOLOGY({
 		el: "#bg",
 		mouseControls: true,
 		touchControls: true,
@@ -60,14 +51,8 @@
 		minWidth: 200.00,
 		scale: 1.00,
 		scaleMobile: 1.00,
-		backgroundColor: 0x0,
-		backgroundAlpha: 0.00,
-		color1: 0x7061,
-		color2: 0xe000ff,
-		quantity: 3.00,
-		speedLimit: 5.00,
-		birdSize: 1.50,
-		wingSpan: 40.00,
+		backgroundColor: 0x3d3d3d,
+		color: 0xe88bab
 	})
 </script>
 <script src="src/js/main.js"></script>

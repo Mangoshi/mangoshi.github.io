@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+	<!-- CSS -->
+	<link href="src/css/style.css" rel="stylesheet" type="text/css">
+	<link href="src/css/normalize.css" rel="stylesheet" type="text/css">
+	<!-- Page -->
+	<link rel="icon" type="image/x-icon" href="/src/img/favicon.ico">
+	<title>dev</title>
+</head>
+<body>
+<!-- Content -->
+<main id="bg">
+	<nav>
+		<a href="index.html">home</a>
+		<a href="dev.html" class="currentLink">dev</a>
+		<a href="audio.html">audio</a>
+		<a href="visual.html">visual</a>
+		<a href="contact.html">contact</a>
+	</nav>
+	<div class="page-container">
+		<!-- Logo -->
+		<svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 691.23 882.63" class="logo hoverSlow h-paleOrange">
+			<path stroke="currentColor" fill="currentColor" class="cls-1" d="M620.13,441.31V361.8c-23.9-12.47-44.35-25.87-67.48-37.95.17-28.28,0-55.21,0-81.94-46-28.57-96.42-49.83-140.71-79.61V81.94C364.27,61.13,321,27.37,275.72,0V81.94L137.27,162.3v79.61L68.11,282.1v79.7L0,401.64v78.85c22.79,13.35,45,26.6,68.11,40.16v79.68c23.4,13.62,46.55,26.81,69.43,40.12v79.68l138.18,80v82.46c13.37-8.52,330.13-192.2,344.41-200.51,0-27.39-.27-54.51,0-81.79,5-3.15,61.31-33.31,71.1-39.11V480.49C668,468.24,644.54,454.18,620.13,441.31Zm-15.06,90.57c-7.35,4.36-49.66,27-53.38,29.36-.2,20.48,0,40.84,0,61.4C541,628.88,303.18,766.77,293.14,773.16v-61.9L189.41,651.18V591.36c-17.18-10-34.55-19.9-52.12-30.12V501.42c-17.38-10.18-34-20.12-51.13-30.14V412.09l51.13-29.91V322.35l51.92-30.17V232.41l103.93-60.32V110.58c34,20.54,66.48,45.89,102.26,61.51v60.32c33.25,22.36,71.07,38.32,105.64,59.77,0,20.06.13,40.28,0,61.51,17.36,9.07,32.71,19.12,50.65,28.49v59.69c18.33,9.66,35.94,20.22,53.38,29.41Z"/>
+		</svg>
+		<!-- Info-Card -->
+		<div class="card outlined rounded shadowed" id="dev-info-card">
+			<h1 class="no-select"><span class="hover h-brightOrange">dev</span>.<span class="hover h-brightOrange">info</span></h1>
+			<div class="info-block">
+				<p class="info-block-text">Throughout my studies, I consistently found web technologies to suit me the best.</p>
+				<p class="info-block-text">This is probably because web development is often a nice blend of visual design & problem-solving.</p>
+				<p class="info-block-text">Both of which I enjoy!</p>
+				<p class="info-block-text">From WAMP stacks to MERN and MEVN stacks, a great many websites were built over that academic journey!</p>
+				<p class="info-block-text">You can find many of these projects below. If you want to view one on GitHub, click on the thumbnail or badges.</p>
+			</div>
+			<h4 class="shieldGroup-title underlined">Fluent</h4>
+			<div class="shieldGroup">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/JavaScript-3D3D3D?logo=javascript&logoColor=white">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/HTML-3D3D3D?logo=html5&logoColor=white">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/CSS-3D3D3D?logo=css3&logoColor=white">
+			</div>
+			<h4 class="shieldGroup-title underlined">Well-spoken</h4>
+			<div class="shieldGroup">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/PHP / Laravel-3D3D3D?logo=php&logoColor=white">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/Java / Kotlin-3D3D3D?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIDYuNS4xIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlL2ZyZWUgQ29weXJpZ2h0IDIwMjQgRm9udGljb25zLCBJbmMuLS0+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTI3Ny43IDMxMi45YzkuOC02LjcgMjMuNC0xMi41IDIzLjQtMTIuNXMtMzguNyA3LTc3LjIgMTAuMmMtNDcuMSAzLjktOTcuNyA0LjctMTIzLjEgMS4zLTYwLjEtOCAzMy0zMC4xIDMzLTMwLjFzLTM2LjEtMi40LTgwLjYgMTljLTUyLjUgMjUuNCAxMzAgMzcgMjI0LjUgMTIuMXptLTg1LjQtMzIuMWMtMTktNDIuNy04My4xLTgwLjIgMC0xNDUuOEMyOTYgNTMuMiAyNDIuOCAwIDI0Mi44IDBjMjEuNSA4NC41LTc1LjYgMTEwLjEtMTEwLjcgMTYyLjYtMjMuOSAzNS45IDExLjcgNzQuNCA2MC4yIDExOC4yem0xMTQuNi0xNzYuMmMuMSAwLTE3NS4yIDQzLjgtOTEuNSAxNDAuMiAyNC43IDI4LjQtNi41IDU0LTYuNSA1NHM2Mi43LTMyLjQgMzMuOS03Mi45Yy0yNi45LTM3LjgtNDcuNS01Ni42IDY0LjEtMTIxLjN6bS02LjEgMjcwLjVhMTIuMiAxMi4yIDAgMCAxIC0yIDIuNmMxMjguMy0zMy43IDgxLjEtMTE4LjkgMTkuOC05Ny4zYTE3LjMgMTcuMyAwIDAgMCAtOC4yIDYuMyA3MC41IDcwLjUgMCAwIDEgMTEtM2MzMS02LjUgNzUuNSA0MS41LTIwLjYgOTEuNHpNMzQ4IDQzNy40czE0LjUgMTEuOS0xNS45IDIxLjJjLTU3LjkgMTcuNS0yNDAuOCAyMi44LTI5MS42IC43LTE4LjMtNy45IDE2LTE5IDI2LjgtMjEuMyAxMS4yLTIuNCAxNy43LTIgMTcuNy0yLTIwLjMtMTQuMy0xMzEuMyAyOC4xLTU2LjQgNDAuMkMyMzIuOCA1MDkuNCA0MDEgNDYxLjMgMzQ4IDQzNy40ek0xMjQuNCAzOTZjLTc4LjcgMjIgNDcuOSA2Ny40IDE0OC4xIDI0LjVhMTg1LjkgMTg1LjkgMCAwIDEgLTI4LjItMTMuOGMtNDQuNyA4LjUtNjUuNCA5LjEtMTA2IDQuNS0zMy41LTMuOC0xMy45LTE1LjItMTMuOS0xNS4yem0xNzkuOCA5Ny4yYy03OC43IDE0LjgtMTc1LjggMTMuMS0yMzMuMyAzLjYgMC0uMSAxMS44IDkuNyA3Mi40IDEzLjYgOTIuMiA1LjkgMjMzLjgtMy4zIDIzNy4xLTQ2LjkgMCAwLTYuNCAxNi41LTc2LjIgMjkuN3pNMjYwLjYgMzUzYy01OS4yIDExLjQtOTMuNSAxMS4xLTEzNi44IDYuNi0zMy41LTMuNS0xMS42LTE5LjctMTEuNi0xOS43LTg2LjggMjguOCA0OC4yIDYxLjQgMTY5LjUgMjUuOWE2MC40IDYwLjQgMCAwIDEgLTIxLjEtMTIuOHoiLz48L3N2Zz4=&logoColor=white">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/SQL-3D3D3D?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIDYuNS4xIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlL2ZyZWUgQ29weXJpZ2h0IDIwMjQgRm9udGljb25zLCBJbmMuLS0+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTQ0OCA4MHY0OGMwIDQ0LjItMTAwLjMgODAtMjI0IDgwUzAgMTcyLjIgMCAxMjhWODBDMCAzNS44IDEwMC4zIDAgMjI0IDBTNDQ4IDM1LjggNDQ4IDgwek0zOTMuMiAyMTQuN2MyMC44LTcuNCAzOS45LTE2LjkgNTQuOC0yOC42VjI4OGMwIDQ0LjItMTAwLjMgODAtMjI0IDgwUzAgMzMyLjIgMCAyODhWMTg2LjFjMTQuOSAxMS44IDM0IDIxLjIgNTQuOCAyOC42Qzk5LjcgMjMwLjcgMTU5LjUgMjQwIDIyNCAyNDBzMTI0LjMtOS4zIDE2OS4yLTI1LjN6TTAgMzQ2LjFjMTQuOSAxMS44IDM0IDIxLjIgNTQuOCAyOC42Qzk5LjcgMzkwLjcgMTU5LjUgNDAwIDIyNCA0MDBzMTI0LjMtOS4zIDE2OS4yLTI1LjNjMjAuOC03LjQgMzkuOS0xNi45IDU0LjgtMjguNlY0MzJjMCA0NC4yLTEwMC4zIDgwLTIyNCA4MFMwIDQ3Ni4yIDAgNDMyVjM0Ni4xeiIvPjwvc3ZnPg==&logoColor=white">
+			</div>
+			<h4 class="shieldGroup-title underlined">Learning</h4>
+			<div class="shieldGroup">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/TypeScript-3D3D3D?logo=typescript&logoColor=white">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/Python-3D3D3D?logo=python&logoColor=white">
+			</div>
+		</div>
+		<div class="card outlined rounded shadowed" id="dev-projects-card">
+			<h1 class="no-select"><span class="hover h-brightOrange">dev</span>.<span class="hover h-brightOrange">projects</span></h1>
+			<div class="projects-container">
+				<div class="project">
+					<h3 class="project-title">MangoSynth24 - Final Year Project (2023)</h3>
+					<a href="https://github.com/Mangoshi/MS24" target="_blank"><img class="project-thumbnail" alt="Project thumbnail" src="/src/img/screensot_ms24.png"></a>
+					<div class="project-shieldGroup">
+						<img class="project-shield" src="https://img.shields.io/github/stars/Mangoshi/MS24" alt="Dynamic Shield">
+						<img class="project-shield" src="https://img.shields.io/github/forks/Mangoshi/MS24" alt="Dynamic Shield">
+						<img class="project-shield" src="https://img.shields.io/github/watchers/Mangoshi/MS24" alt="Dynamic Shield">
+					</div>
+					<div class="project-shieldGroup">
+						<img class="project-shield" src="https://img.shields.io/github/downloads/Mangoshi/MS24/total" alt="Dynamic Shield">
+						<img class="project-shield" src="https://img.shields.io/github/languages/code-size/Mangoshi/MS24" alt="Dynamic Shield">
+						<img class="project-shield" src="https://img.shields.io/github/repo-size/Mangoshi/MS24" alt="Dynamic Shield">
+					</div>
+					<p class="project-info">A semi-modular subtractive FM/AM synthesizer, built for the web using Vanilla JavaScript and a variety of JavaScript libraries.</p>
+				</div>
+				<div class="project">
+					<h3 class="project-title">FruitySteam - JavaScript Assignment (2023)</h3>
+					<a href="https://github.com/Mangoshi/FruitySteamFrontend" target="_blank"><img class="project-thumbnail" alt="Project thumbnail" src="/src/img/thumb_fruitySteam.png"></a>
+					<div class="project-shieldGroup">
+						<img class="project-shield" src="https://img.shields.io/github/stars/Mangoshi/FruitySteamFrontend" alt="Dynamic Shield">
+						<img class="project-shield" src="https://img.shields.io/github/forks/Mangoshi/FruitySteamFrontend" alt="Dynamic Shield">
+						<img class="project-shield" src="https://img.shields.io/github/watchers/Mangoshi/FruitySteamFrontend" alt="Dynamic Shield">
+					</div>
+					<div class="project-shieldGroup">
+						<img class="project-shield" src="https://img.shields.io/github/languages/code-size/Mangoshi/FruitySteamFrontend" alt="Dynamic Shield">
+						<img class="project-shield" src="https://img.shields.io/github/repo-size/Mangoshi/FruitySteamFrontend" alt="Dynamic Shield">
+						<img class="project-shield" src="https://img.shields.io/github/deployments/Mangoshi/MS24/Production" alt="Dynamic Shield">
+					</div>
+					<p class="project-info">A full-stack Windows 95-themed Steam database explorer and CRUD app consisting of:</p>
+					<ul class="small">
+						<li>A MongoDB database of over 60,000 Steam games</li>
+						<li>A Node.js backend built using Express.js</li>
+						<li>A React-based frontend scaffolded using Vite.</li>
+					</ul>
+				</div>
+				<div style="text-align: center">
+					<h2>Adding more projects soon!</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script>
+<script>
+	VANTA.WAVES({
+		el: "#bg",
+		mouseControls: false,
+		touchControls: false,
+		gyroControls: false,
+		minHeight: 200.00,
+		minWidth: 200.00,
+		scale: 1.00,
+		scaleMobile: 1.00,
+		color: 0x222222,
+		shininess: 10,
+		waveSpeed: 0.40
+	})
+</script>
+<script src="src/js/main.js"></script>
+</html>
