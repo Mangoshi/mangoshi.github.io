@@ -34,28 +34,36 @@
 		<!-- Info-Card -->
 		<div class="card outlined rounded shadowed" id="dev-info-card">
 			<h1 class="no-select"><span class="hover h-brightOrange">dev</span>.<span class="hover h-brightOrange">info</span></h1>
-			<div class="info-block">
-				<p class="info-block-text">Throughout my studies, I consistently found web technologies to suit me the best.</p>
-				<p class="info-block-text">This is probably because web development is often a nice blend of visual design & problem-solving.</p>
-				<p class="info-block-text">Both of which I enjoy!</p>
-				<p class="info-block-text">From WAMP stacks to MERN and MEVN stacks, a great many websites were built over that academic journey!</p>
-				<p class="info-block-text">You can find many of these projects below. If you want to view one on GitHub, click on the thumbnail or badges.</p>
+			<div class="info-block centered">
+				<p class="info-block-text">Why did the programmer quit their job?</p>
+				<button class="button-1" id="joke-button">Why?</button>
+				<p class="info-block-text hidden" id="joke-answer">They didn't get arrays! 😂</p>
 			</div>
-			<h4 class="shieldGroup-title underlined">Fluent</h4>
+			<h4 class="shieldGroup-title underlined centered">Experienced</h4>
 			<div class="shieldGroup">
 				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/JavaScript-3D3D3D?logo=javascript&logoColor=white">
 				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/HTML-3D3D3D?logo=html5&logoColor=white">
 				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/CSS-3D3D3D?logo=css3&logoColor=white">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/Vue-3D3D3D?logo=vue.js&logoColor=white">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/React-3D3D3D?logo=react&logoColor=white">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/Node-3D3D3D?logo=node.js&logoColor=white">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/Express-3D3D3D?logo=express&logoColor=white">
 			</div>
-			<h4 class="shieldGroup-title underlined">Well-spoken</h4>
+			<h4 class="shieldGroup-title underlined centered">Intermediate</h4>
 			<div class="shieldGroup">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/React_Native_/_Expo-3D3D3D?logo=expo&logoColor=white">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/MongoDB-3D3D3D?logo=mongodb&logoColor=white">
 				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/PHP / Laravel-3D3D3D?logo=php&logoColor=white">
 				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/Java / Kotlin-3D3D3D?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIDYuNS4xIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlL2ZyZWUgQ29weXJpZ2h0IDIwMjQgRm9udGljb25zLCBJbmMuLS0+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTI3Ny43IDMxMi45YzkuOC02LjcgMjMuNC0xMi41IDIzLjQtMTIuNXMtMzguNyA3LTc3LjIgMTAuMmMtNDcuMSAzLjktOTcuNyA0LjctMTIzLjEgMS4zLTYwLjEtOCAzMy0zMC4xIDMzLTMwLjFzLTM2LjEtMi40LTgwLjYgMTljLTUyLjUgMjUuNCAxMzAgMzcgMjI0LjUgMTIuMXptLTg1LjQtMzIuMWMtMTktNDIuNy04My4xLTgwLjIgMC0xNDUuOEMyOTYgNTMuMiAyNDIuOCAwIDI0Mi44IDBjMjEuNSA4NC41LTc1LjYgMTEwLjEtMTEwLjcgMTYyLjYtMjMuOSAzNS45IDExLjcgNzQuNCA2MC4yIDExOC4yem0xMTQuNi0xNzYuMmMuMSAwLTE3NS4yIDQzLjgtOTEuNSAxNDAuMiAyNC43IDI4LjQtNi41IDU0LTYuNSA1NHM2Mi43LTMyLjQgMzMuOS03Mi45Yy0yNi45LTM3LjgtNDcuNS01Ni42IDY0LjEtMTIxLjN6bS02LjEgMjcwLjVhMTIuMiAxMi4yIDAgMCAxIC0yIDIuNmMxMjguMy0zMy43IDgxLjEtMTE4LjkgMTkuOC05Ny4zYTE3LjMgMTcuMyAwIDAgMCAtOC4yIDYuMyA3MC41IDcwLjUgMCAwIDEgMTEtM2MzMS02LjUgNzUuNSA0MS41LTIwLjYgOTEuNHpNMzQ4IDQzNy40czE0LjUgMTEuOS0xNS45IDIxLjJjLTU3LjkgMTcuNS0yNDAuOCAyMi44LTI5MS42IC43LTE4LjMtNy45IDE2LTE5IDI2LjgtMjEuMyAxMS4yLTIuNCAxNy43LTIgMTcuNy0yLTIwLjMtMTQuMy0xMzEuMyAyOC4xLTU2LjQgNDAuMkMyMzIuOCA1MDkuNCA0MDEgNDYxLjMgMzQ4IDQzNy40ek0xMjQuNCAzOTZjLTc4LjcgMjIgNDcuOSA2Ny40IDE0OC4xIDI0LjVhMTg1LjkgMTg1LjkgMCAwIDEgLTI4LjItMTMuOGMtNDQuNyA4LjUtNjUuNCA5LjEtMTA2IDQuNS0zMy41LTMuOC0xMy45LTE1LjItMTMuOS0xNS4yem0xNzkuOCA5Ny4yYy03OC43IDE0LjgtMTc1LjggMTMuMS0yMzMuMyAzLjYgMC0uMSAxMS44IDkuNyA3Mi40IDEzLjYgOTIuMiA1LjkgMjMzLjgtMy4zIDIzNy4xLTQ2LjkgMCAwLTYuNCAxNi41LTc2LjIgMjkuN3pNMjYwLjYgMzUzYy01OS4yIDExLjQtOTMuNSAxMS4xLTEzNi44IDYuNi0zMy41LTMuNS0xMS42LTE5LjctMTEuNi0xOS43LTg2LjggMjguOCA0OC4yIDYxLjQgMTY5LjUgMjUuOWE2MC40IDYwLjQgMCAwIDEgLTIxLjEtMTIuOHoiLz48L3N2Zz4=&logoColor=white">
 				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/SQL-3D3D3D?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIDYuNS4xIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlL2ZyZWUgQ29weXJpZ2h0IDIwMjQgRm9udGljb25zLCBJbmMuLS0+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTQ0OCA4MHY0OGMwIDQ0LjItMTAwLjMgODAtMjI0IDgwUzAgMTcyLjIgMCAxMjhWODBDMCAzNS44IDEwMC4zIDAgMjI0IDBTNDQ4IDM1LjggNDQ4IDgwek0zOTMuMiAyMTQuN2MyMC44LTcuNCAzOS45LTE2LjkgNTQuOC0yOC42VjI4OGMwIDQ0LjItMTAwLjMgODAtMjI0IDgwUzAgMzMyLjIgMCAyODhWMTg2LjFjMTQuOSAxMS44IDM0IDIxLjIgNTQuOCAyOC42Qzk5LjcgMjMwLjcgMTU5LjUgMjQwIDIyNCAyNDBzMTI0LjMtOS4zIDE2OS4yLTI1LjN6TTAgMzQ2LjFjMTQuOSAxMS44IDM0IDIxLjIgNTQuOCAyOC42Qzk5LjcgMzkwLjcgMTU5LjUgNDAwIDIyNCA0MDBzMTI0LjMtOS4zIDE2OS4yLTI1LjNjMjAuOC03LjQgMzkuOS0xNi45IDU0LjgtMjguNlY0MzJjMCA0NC4yLTEwMC4zIDgwLTIyNCA4MFMwIDQ3Ni4yIDAgNDMyVjM0Ni4xeiIvPjwvc3ZnPg==&logoColor=white">
 			</div>
-			<h4 class="shieldGroup-title underlined">Learning</h4>
+			<h4 class="shieldGroup-title underlined centered">Learning</h4>
 			<div class="shieldGroup">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/Next.js-3D3D3D?logo=next.js&logoColor=white">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/Svelte-3D3D3D?logo=svelte&logoColor=white">
 				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/TypeScript-3D3D3D?logo=typescript&logoColor=white">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/Sass-3D3D3D?logo=sass&logoColor=white">
+				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/Web_Assembly-3D3D3D?logo=webassembly&logoColor=white">
 				<img class="shield" alt="Static Badge" src="https://img.shields.io/badge/Python-3D3D3D?logo=python&logoColor=white">
 			</div>
 		</div>
@@ -94,7 +102,7 @@
 										<img class="project-shield" src="https://img.shields.io/github/repo-size/Mangoshi/MS24" alt="Dynamic Shield">
 									</div>
 									<p class="project-info">
-										Designed and developed a web-based subtractive FM synthesizer utilizing the Web Audio API with vanilla JavaScript and Tone.js, primarily. It features three oscillators, a multi-mode filter, a low-frequency oscillator (LFO) for modulation, and nine different effects to route audio through. It also provides an inbuilt lossless audio recorder for saving sounds, and comes with sixteen presets to learn from.
+										Designed and developed a web-based subtractive FM synthesizer utilizing the Web Audio API with vanilla JavaScript and Tone.js, primarily. It features three oscillators, a multi filter, a low-frequency oscillator (LFO) for modulation, and nine different effects to route audio through. It also provides an inbuilt lossless audio recorder for saving sounds, and comes with sixteen presets to learn from.
 									</p>
 									<div class="project-links">
 										<a class="project-link" href="https://ms24.vercel.app" target="_blank">
@@ -263,7 +271,7 @@
 										</a>
 									</div>
 									<p class="project-info">
-										Frontend built with Vue.js which connects to a simple API which emulates a college database. This website features a modern dashboard design with a multi-role login/registration system and full CRUD database management for admins.
+										Frontend built with Vue.js which connects to a simple API which emulates a college database. This website features a modern dashboard design with a login/registration system supporting multiple roles and full CRUD database management for admins.
 									</p>
 									<div class="project-links">
 										<a class="project-link" href="https://mangoshi.github.io/RESTfulCollege/" target="_blank">
