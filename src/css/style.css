@@ -179,8 +179,14 @@ svg {
 }
 
 .card h1 {
-	padding-bottom: 1rem;
+	padding-bottom: 0.5rem;
 	text-align: center;
+}
+
+.card-subtitle {
+	background-color: #444444;
+	margin: -1.5rem 33% 2rem 33%;
+	border-radius: 1rem;
 }
 
 .info-block {
@@ -341,6 +347,9 @@ i {
 	.emoji-indent {
 		text-indent: -32px;
 		margin-left: 32px;
+	}
+	.glide__arrows {
+		display: none;
 	}
 }
 
