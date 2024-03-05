@@ -105,6 +105,10 @@ a:visited {
 	color: #e48eff;
 }
 
+.hidden {
+	display: none;
+}
+
 .underlined {
 	text-decoration: underline;
 }
@@ -179,8 +183,14 @@ svg {
 }
 
 .card h1 {
-	padding-bottom: 1rem;
+	padding-bottom: 0.5rem;
 	text-align: center;
+}
+
+.card-subtitle {
+	background-color: #444444;
+	margin: -1.5rem 33% 2rem 33%;
+	border-radius: 1rem;
 }
 
 .info-block {
@@ -191,12 +201,32 @@ svg {
 	border: solid 1px darkgray;
 }
 
-.info-block-text {
-
+.button-1 {
+	background-color: #111;
+	color: white;
+	border-radius: 8px;
+	border-width: 0;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	list-style: none;
+	margin: 0 0 3px 0;
+	padding: 6px 12px;
+	text-align: center;
+	transition: all 200ms;
+	vertical-align: baseline;
+	white-space: nowrap;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
 }
 
 .shieldGroup {
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
@@ -205,7 +235,7 @@ svg {
 }
 
 .shield {
-	margin-right: 5px;
+	margin: 2px;
 	height: 24px;
 }
 
@@ -226,6 +256,7 @@ i {
 }
 
 .carousel-arrow {
+	font-family: "Ubuntu", sans-serif;
 	color: #FFFFFF;
 	background-color: #545454;
 	border-style: none;
@@ -295,19 +326,37 @@ i {
 	font-size: 14px;
 }
 
+#contact-card, #links-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .contact-table {
 	line-height: 24px;
 	table-layout: fixed;
-	width: 100%;
+	background-color: #444444;
+	padding: 1rem;
+	border-radius: 1rem;
 }
 
 .contact-type {
 	padding-right: 12px;
-	width: 120px;
 }
 
-.contactLink {
+.contactLink a {
 	word-wrap: break-word;
+	text-align: right;
+}
+
+.linkArrow {
+	text-decoration: none;
+	color: white !important;
+	transition: color 100ms;
+}
+
+.linkArrow:hover {
+	color: #e48eff !important;
 }
 
 .centered {
@@ -341,6 +390,9 @@ i {
 	.emoji-indent {
 		text-indent: -32px;
 		margin-left: 32px;
+	}
+	.glide__arrows {
+		display: none;
 	}
 }
 

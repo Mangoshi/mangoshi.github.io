@@ -15,3 +15,12 @@ logo.addEventListener('dblclick', () => {
 	}
 })
 
+const jokeButton = document.getElementById('joke-button')
+const jokeAnswer = document.getElementById('joke-answer')
+
+jokeButton.addEventListener('click', () => {
+	if(jokeAnswer.classList.contains('hidden')) {
+		jokeAnswer.classList.remove('hidden')
+		jokeButton.remove()
+	}
+})
