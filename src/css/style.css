@@ -218,19 +218,45 @@ i {
 	flex-direction: column;
 	align-items: center;
 	gap: 24px;
-	padding: 16px;
+}
+
+.carousel {
+	display: flex;
+	align-items: center;
+}
+
+.carousel-arrow {
+	color: #FFFFFF;
+	background-color: #545454;
+	border-style: none;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-size: 32px;
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+	transition: color 100ms;
+	vertical-align: baseline;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+
+.carousel-arrow:hover {
+	color: #e48eff;
 }
 
 .project {
 	background: #333;
 	padding: 10px 20px 10px 30px;
+	margin: 0 10px;
 	border-radius: 1rem;
 	border: 1px solid darkgray;
-	width: 100%;
 }
 
 .project-title {
 	margin-bottom: 0.8rem;
+	text-align: center;
 }
 
 .project-thumbnail {
@@ -250,7 +276,19 @@ i {
 }
 
 .project-info {
-	margin-top: 1rem;
+	margin: 0.2rem 0 1rem 0;
+	line-height: 1.3rem;
+	background-color: #444444;
+	padding: 1.5rem;
+	border-radius: 2rem;
+}
+
+.project-links {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	margin-bottom: 1rem;
 }
 
 .small {
